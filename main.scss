@@ -1,14 +1,17 @@
 @import 'variables.scss';
 
-html {
-  background: url(images/truck.jpeg) no-repeat center center fixed;
+body {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url(images/shrimp.jpeg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  opacity: 0.5;
 }
 
-h1 {
-  color: blue;
+h1, a, .collection {
+  color: #F6DF81;
+  text-decoration: none;
+  text-align: center;
+  background-color: #0007B2;
+
 }
