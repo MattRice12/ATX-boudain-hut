@@ -1,6 +1,6 @@
 # HTML
 
-[index.html]
+#[index.html]
 
 <!DOCTYPE html>
 <html>
@@ -30,5 +30,7 @@
 
 
 # SASS
+
+# main.css
 
 sass --watch main.scss
