@@ -1,17 +1,57 @@
 @import 'variables.scss';
 
 body {
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.0)), url(images/shrimp.jpeg) no-repeat center center fixed;
+  margin: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/shrimp.jpeg) no-repeat center center;
+  position: static;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-h1, a, .collection {
-  color: #F6DF81;
+h1, h2, a, .collection {
+  color: #fff;
   text-decoration: none;
   text-align: center;
-  background-color: #0007B2;
+}
 
+.collection {
+  background-color: #000;
+  padding: 5px;
+  display: flex;
+  .collection-left, .collection-right {
+    text-align: right;
+    display: inline-block;
+  }
+  a {
+    margin: 0 35px;
+  }
+}
+
+.title {
+  margin: 15% 35% 0 35%;
+  h1, h2, h6 {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+  }
+  h6 {
+    text-align: left;
+    padding: 0 30px 5px 0;
+    margin: 5px 0;
+  }
+}
+
+.sub-title {
+  margin: 0 10%;
+  padding-left: 30%;
+  h6 {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: left;
+    padding: 0 30px 5px 0;
+    margin: 0;
+  }
 }
