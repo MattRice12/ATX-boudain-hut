@@ -8,22 +8,37 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  height: 50px;
+  padding-top: 50px;
 }
 
-h1, h2, a, .collection {
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+  height: 50px;
+  margin: 0 auto;
+}
+
+h1, h2, a, .nav-link {
   color: #fff;
   text-decoration: none;
   text-align: center;
 }
 
-.collection {
+ul {
+  margin-top: 0;
   background-color: #000;
-  padding: 5px;
+  padding: 10px;
+  list-style-type: none;
   display: flex;
-  .collection-left, .collection-right {
-    text-align: right;
-    display: inline-block;
-  }
+}
+
+.nav-link {
+  padding: 15px;
+  font-size: larger;
   a {
     margin: 0 35px;
   }
@@ -54,4 +69,15 @@ h1, h2, a, .collection {
     padding: 0 30px 5px 0;
     margin: 0;
   }
+}
+
+.section-break {
+  margin-top: 265px;
+}
+
+.menu {
+  background: url(images/ATX_Boudain_Menu.png) no-repeat;
+  background-size:contain;
+  height: 1500px;
+  margin: 0;
 }

@@ -33,4 +33,5 @@
 
 # main.css
 
+gem install sass
 sass --watch main.scss
