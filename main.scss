@@ -7,9 +7,9 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  height: 50px;
-  padding-top: 50px;
+  background-size: contain;
+  height: 700px;
+  // padding-top: 50px;
 }
 
 header {
@@ -19,7 +19,6 @@ header {
   top: 0;
   z-index: 1000;
   height: 50px;
-  margin: 0 auto;
 }
 
 h1, h2, a, .nav-link {
@@ -45,7 +44,7 @@ ul {
 }
 
 .title {
-  margin: 15% 35% 0 35%;
+  margin: 0;
   h1, h2, h6 {
     color: #fff;
     text-decoration: none;
@@ -53,13 +52,11 @@ ul {
   }
   h6 {
     text-align: left;
-    padding: 0 30px 5px 0;
-    margin: 5px 0;
   }
 }
 
 .sub-title {
-  margin: 0 10%;
+  margin: 0 3rem;
   padding-left: 30%;
   h6 {
     color: #fff;
@@ -72,7 +69,7 @@ ul {
 }
 
 .section-break {
-  margin-top: 265px;
+  margin-top: 65px;
 }
 
 .menu {
