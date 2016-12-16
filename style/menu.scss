@@ -10,31 +10,35 @@ main section {
     display: flex;
     flex-wrap: wrap;
     div {
-      width: 200px;
+      // width: 400px;
       margin-right: 3.5%;
       flex-basis: 22%;
       p {
-        font-size: .4rem;
-        margin-left: 5px;
-        width: 150px;
+        font-size: .7rem;
+        margin-left: 25px;
+        width: 250px;
       }
     }
   }
   h2 {
-    margin-bottom: 10px;
+    margin-bottom: 17.5px;
     text-decoration: underline;
     font-weight: 900;
     text-align: center;
+    font-size: 2.8em;
   }
   table {
-    min-width: 200px;
+    min-width: 355px;
     margin-left: 5%;
+    tr {
+      font-size: 1.85em;
+    }
     th {
       text-decoration: underline;
     }
     td {
-      font-size: .6em;
-      padding-bottom: 5px;
+      font-size: .55em;
+      padding-bottom: 7.5px;
       span {
         font-size: .7em;
         font-weight: 200;
@@ -44,8 +48,8 @@ main section {
 
   div {
     .img {
-      height: 100px;
-      min-height: 100px;
+      height: 175px;
+      min-height: 175px;
       border-radius: 10px;
       margin-left: 25%;
       position: static;
