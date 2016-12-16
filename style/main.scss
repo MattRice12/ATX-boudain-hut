@@ -1,0 +1,45 @@
+@import 'header';
+@import 'menu';
+
+body {
+  font-family: 'Open Sans', serif;
+  color: #083451;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Oswald';
+}
+
+p, li, a {
+  font-family: 'Open Sans';
+}
+
+ul li {
+  padding: 0 10px;
+  margin: 0 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+section {
+  margin-left: 5%;
+  text-align: left;
+  font-family: 'Open Sans';
+  h1 {
+    margin-bottom: 0;
+    font-size: 2em;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: .7rem;
+    word-spacing: -0.5px;
+    font-weight: 900;
+  }
+}
