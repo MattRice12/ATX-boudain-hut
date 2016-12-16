@@ -128,7 +128,8 @@ main section h1 {
   min-height: 175px;
   border-radius: 10px;
   margin-left: 25%;
-  position: static; }
+  position: static;
+  box-shadow: 5px 3px 10px lightgray; }
 .menu div .img-wide {
   margin-left: 18%; }
 .menu div .img-slim {
@@ -136,6 +137,37 @@ main section h1 {
 .menu div .filter {
   -webkit-filter: contrast(120%);
   filter: contrast(120%); }
+
+#catering a {
+  color: #FF8C02;
+  text-shadow: 1px 1px 2px #1D1403;
+  transition: .3s; }
+  #catering a:hover {
+    color: #592684;
+    transition: .1s; }
+
+#about h4 {
+  font-size: 2em;
+  font-weight: 900;
+  margin-bottom: 0; }
+#about p {
+  max-width: 60%;
+  min-width: 350px;
+  line-height: 35px; }
+
+#contact {
+  margin-bottom: 50px; }
+  #contact h4 {
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 0;
+    margin-top: 20px; }
+  #contact table {
+    margin-bottom: 20px; }
+  #contact td, #contact th {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 0; }
 
 body {
   font-family: 'Open Sans', serif;
@@ -171,5 +203,9 @@ section {
     font-size: 1.1rem;
     word-spacing: -0.5px;
     font-weight: 900; }
+
+#map {
+  height: 300px;
+  width: 30%; }
 
 /*# sourceMappingURL=main.css.map */

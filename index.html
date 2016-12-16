@@ -299,18 +299,94 @@
 
       <section id="catering">
         <h1>Catering</h1>
+        <p>This is a paragraph where you talk about who you cater to, where you cater, how long it typically lasts. Probably say that prices vary based on menu items chosen.
+
+        Give examples of what types of foods you cater (and if you do something special that's not on your normal menu).
+
+        Maybe mention that you catered for some big name businesses (H&M, Google, Whole Foods, etc.). This shows that you have a reputation and that your food is good.
+        </p>
+
+        <a href="docs/atx_boudain_email.pdf">Catering Menu</a>
       </section>
 
       <section id="location">
         <h1>Location</h1>
+        <h3>Find the Boudain Hut!</h3>
+        <div id="map"></div>
+        <script>
+          function initMap() {
+            var uluru = {lat: 30.29057, lng: -97.7447};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 14,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNjX_2gwt5shIOtiiRAsRvxreh0qZSY8I&callback=initMap">
+        </script>
       </section>
 
       <section id="about">
         <h1>About</h1>
+        <h4>The Food Truck</h4>
+        <p>In 2013, ATX Boudain Hut opened shop on West Campus and began serving the local community of Austin Texas. Here, we combine the heart of Austin with the taste of Louisiana and East Texas to give our friendly customers an authentic Cajun experience.</p>
+
+        <h4>Stefan Rice, Founder</h4>
+        <p>ATX Boudain Hut was founded by Stefan Rice, a well seasoned cajun and industry worker who decided to take his experience and background into the field to put his name to his service. Stefan was born in Nederland, Texas where he was heavily influenced by both East-Texas and Louisiana cajun food--where boudain and crawfish were as common as a hotdogs. In 2012, Stefan moved to Austin, Texas and couldn't help but bring these flavors with him. And through the Boudain Hut, he chooses to share his childhood with the community.</p>
+
       </section>
 
       <section id="contact">
         <h1>Contact</h1>
+        <p>Call or Stop By Anytime we are open!</p>
+
+        <h4>Hours</h4>
+        <table>
+          <tr>
+            <td>Monday</td>
+            <th>12pm-11pm</th>
+          </tr>
+
+          <tr>
+            <td>Tuesday</td>
+            <th>12pm-11pm</th>
+          </tr>
+
+          <tr>
+            <td>Wednesday</td>
+            <th>12pm-11pm</th>
+          </tr>
+
+          <tr>
+            <td>Thursday</td>
+            <th>12pm-3am</th>
+          </tr>
+
+          <tr>
+            <td>Friday</td>
+            <th>12pm-3am</th>
+          </tr>
+
+          <tr>
+            <td>Saturday</td>
+            <th>12pm-3am</th>
+          </tr>
+
+          <tr>
+            <td>Sunday</td>
+            <th>12pm-5pm</th>
+          </tr>
+        </table>
+        <br />
+
+        <p>Add: 2512 Rio Grande St. Austin, TX 78705</p>
+        <p>Tel: 512-920-4423</p>
+        <p>Tel: 512-645-4112</p>
       </section>
     </main>
 

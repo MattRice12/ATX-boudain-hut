@@ -1,0 +1,9 @@
+#catering a {
+  color: #FF8C02;
+  text-shadow: 1px 1px 2px #1D1403;
+  transition: .3s;
+  &:hover {
+    color: #592684;
+    transition: .1s;
+  }
+}

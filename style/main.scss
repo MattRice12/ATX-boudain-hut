@@ -1,5 +1,8 @@
 @import 'header';
 @import 'menu';
+@import 'catering';
+@import 'about';
+@import 'contact';
 
 body {
   font-family: 'Open Sans', serif;
@@ -42,4 +45,9 @@ section {
     word-spacing: -0.5px;
     font-weight: 900;
   }
+}
+
+#map {
+ height: 300px;
+ width: 30%;
 }
