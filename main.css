@@ -108,7 +108,8 @@ main section h1 {
   flex-wrap: wrap; }
   .menu article div {
     width: 200px;
-    margin-right: 7%; }
+    margin-right: 3.5%;
+    flex-basis: 22%; }
     .menu article div p {
       font-size: .4rem;
       margin-left: 5px;
@@ -119,8 +120,8 @@ main section h1 {
   font-weight: 900;
   text-align: center; }
 .menu table {
-  margin: 0;
-  min-width: 200px; }
+  min-width: 200px;
+  margin-left: 5%; }
   .menu table th {
     text-decoration: underline; }
   .menu table td {
@@ -139,6 +140,9 @@ main section h1 {
   margin-left: 18%; }
 .menu div .img-slim {
   margin-left: 33%; }
+.menu div .filter {
+  -webkit-filter: contrast(120%);
+  filter: contrast(120%); }
 
 body {
   font-family: 'Open Sans', serif;

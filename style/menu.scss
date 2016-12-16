@@ -11,7 +11,8 @@ main section {
     flex-wrap: wrap;
     div {
       width: 200px;
-      margin-right: 7%;
+      margin-right: 3.5%;
+      flex-basis: 22%;
       p {
         font-size: .4rem;
         margin-left: 5px;
@@ -26,8 +27,8 @@ main section {
     text-align: center;
   }
   table {
-    margin: 0;
     min-width: 200px;
+    margin-left: 5%;
     th {
       text-decoration: underline;
     }
@@ -54,6 +55,10 @@ main section {
     }
     .img-slim {
       margin-left: 33%;
+    }
+    .filter {
+      -webkit-filter: contrast(120%);
+      filter: contrast(120%);
     }
   }
 }
