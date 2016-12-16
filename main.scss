@@ -40,11 +40,17 @@ section {
     text-shadow: 1px 2px 1px #333;
     font-size: 3em;
   }
+  h2 {
+    color: white;
+    text-shadow: 1px 2px 1px #222;
+    margin-top: 0;
+    padding-top: 30px;
+  }
   p {
     text-align: left;
     margin-top: 0;
     margin-bottom: 0;
-    color: #aaa;
+    color: #bbb;
     text-shadow: 1px 1px 1px #333;
     font-size: .7rem;
     word-spacing: -0.5px;
@@ -60,12 +66,6 @@ section {
   height: 300px;
 }
 
-.nav-left {
-  text-align: left;
-  display: inline-block;
-  margin-top: 10px;
-}
-
 .header-name {
   vertical-align: top;
   margin-top: 10px;
@@ -78,7 +78,7 @@ section {
   padding-right: 5px;
 }
 
-.nav-right {
+.nav-bar {
   text-align: right;
   float: right;
   margin-top: 10px;
@@ -89,9 +89,79 @@ section {
   margin-right: 10%;
 }
 
-.nav-links {
+.nav-links, .nav-links div {
   display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
+}
+
+@media (max-width: 570px) {
+  .nav-bar {
+    position: fixed;
+    left: 13px;
+    min-width: 100%;
+  }
+
+  section {
+    position: fixed;
+    left: 29px;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav-bar a {
+    font-size: .75em;
+  }
+}
+
+
+@media (max-width: 420px) {
+  nav {
+    position: fixed;
+    left: 29px;
+  }
+
+  .nav-bar {
+    margin-left: 10%;
+    li {
+      min-width: 25%;
+      text-align: left;
+      a {
+        font-size: .75em;
+      }
+    }
+    .nav-links {
+      float: left;
+      display: inline-block;
+    }
+  }
+
+  section {
+    text-align: center;
+    h1 {
+      margin-top: 10px;
+      font-size: 2.5em;
+      line-height: 50px;
+
+    }
+    h2 {
+      margin-top: 25px;
+      margin-bottom: 10px;
+      font-size: 1.3em;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 270px) {
+  .nav-bar {
+    margin-left: 1%;
+    li {
+      min-width: 20%;
+    }
+  }
 }
