@@ -29,7 +29,7 @@
     font-size: 2em;
     margin: 10px;
     &:hover {
-      color: #A0B94A;
+      color: #E2AE28;
       transition: none;;
     }
   }
@@ -37,6 +37,7 @@
 
 @media (max-width: 800px) {
   #contact {
+    padding-left: 0;
     display: block;
   }
 }

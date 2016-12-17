@@ -67,3 +67,15 @@ main section {
     }
   }
 }
+
+@media (min-width: 1780px) {
+  .menu article h2 {margin-right: 1%;}
+}
+
+@media (min-width: 1820px) {
+  .menu article h2 {margin-right: 3%;}
+}
+
+@media (min-width: 1850px) {
+  .menu article h2 {margin-right: 5%;}
+}
