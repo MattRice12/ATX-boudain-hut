@@ -146,28 +146,68 @@ main section h1 {
     color: #592684;
     transition: .1s; }
 
-#about h4 {
-  font-size: 2em;
-  font-weight: 900;
-  margin-bottom: 0; }
-#about p {
-  max-width: 60%;
-  min-width: 350px;
-  line-height: 35px; }
+#location strong {
+  font-weight: bolder;
+  text-decoration: underline; }
 
-#contact {
-  margin-bottom: 50px; }
-  #contact h4 {
+#about {
+  padding-bottom: 70px; }
+  #about h4 {
     font-size: 2em;
     font-weight: 900;
-    margin-bottom: 0;
-    margin-top: 20px; }
-  #contact table {
-    margin-bottom: 20px; }
-  #contact td, #contact th {
-    border: 1px solid black;
-    padding: 10px;
-    margin: 0; }
+    margin-bottom: 0; }
+  #about p {
+    max-width: 60%;
+    min-width: 350px;
+    line-height: 35px; }
+
+#contact {
+  padding: 50px 0 100px 10%;
+  margin: 0;
+  background: #000;
+  display: flex; }
+  #contact div {
+    padding-top: 30px;
+    text-align: center;
+    display: block;
+    min-width: 30%; }
+  #contact h4 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #fff; }
+  #contact p, #contact a {
+    color: #fff;
+    font-weight: 200;
+    text-align: center;
+    font-size: .9em;
+    line-height: 25px; }
+  #contact .fa {
+    transition: .2s;
+    font-size: 2em;
+    margin: 10px; }
+    #contact .fa:hover {
+      color: #A0B94A;
+      transition: none; }
+
+@media (max-width: 800px) {
+  #contact {
+    display: block; } }
+#footer {
+  background: #000;
+  padding-bottom: 100px;
+  text-align: center; }
+  #footer p {
+    font-size: .7em;
+    margin: 0;
+    color: gray;
+    padding: 0;
+    font-weight: 900; }
+    #footer p a {
+      color: inherit;
+      font-size: inherit; }
 
 body {
   font-family: 'Open Sans', serif;
