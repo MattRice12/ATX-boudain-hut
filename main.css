@@ -103,8 +103,9 @@ main section {
   display: flex;
   flex-wrap: wrap; }
   .menu article div {
-    margin-right: 3.5%;
-    flex-basis: 22%; }
+    margin-right: 6%;
+    flex-basis: 22%;
+    flex-basis: auto; }
     .menu article div p {
       font-size: .7rem;
       margin-left: 25px;
@@ -152,6 +153,9 @@ main section {
 @media (min-width: 1850px) {
   .menu article h2 {
     margin-right: 5%; } }
+@media (max-width: 300px) {
+  .menu article {
+    display: block; } }
 #catering {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(20, 0, 0, 0.2)), url(images/balls.jpeg);
   background-repeat: no-repeat;
@@ -202,7 +206,8 @@ main section {
     font-weight: bolder;
     text-decoration: underline; }
   #location p {
-    color: #052D48; }
+    color: #052D48;
+    max-width: 95%; }
   #location h1 {
     color: #052D48;
     margin-bottom: 42.5px; }
@@ -213,10 +218,10 @@ main section {
     font-size: 2em;
     margin-bottom: 0; }
   #about p {
-    max-width: 50%;
+    max-width: 1200px;
     min-width: 350px; }
 
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
   #about p {
     max-width: 95%; } }
 #contact {

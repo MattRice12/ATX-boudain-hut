@@ -11,8 +11,9 @@ main section {
     display: flex;
     flex-wrap: wrap;
     div {
-      margin-right: 3.5%;
+      margin-right: 6%;
       flex-basis: 22%;
+      flex-basis: auto;
       p {
         font-size: .7rem;
         margin-left: 25px;
@@ -78,4 +79,10 @@ main section {
 
 @media (min-width: 1850px) {
   .menu article h2 {margin-right: 5%;}
+}
+
+@media (max-width: 300px) {
+  .menu article {
+    display: block;
+  }
 }
