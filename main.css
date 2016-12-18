@@ -109,7 +109,8 @@ main section {
     .menu article div p {
       font-size: .7rem;
       margin-left: 25px;
-      width: 250px; }
+      width: 250px;
+      line-height: 20px; }
 .menu h2 {
   margin-bottom: 17.5px;
   text-decoration: underline;
@@ -117,14 +118,14 @@ main section {
   text-align: center;
   font-size: 2.8em; }
 .menu table {
-  min-width: 355px;
+  width: 355px;
   margin-left: 5%; }
   .menu table tr {
     font-size: 1.85em; }
   .menu table th {
     text-decoration: underline; }
   .menu table td {
-    font-size: .55em;
+    font-size: .7em;
     padding-bottom: 7.5px; }
     .menu table td span {
       font-size: .7em;
@@ -153,9 +154,15 @@ main section {
 @media (min-width: 1850px) {
   .menu article h2 {
     margin-right: 5%; } }
-@media (max-width: 300px) {
-  .menu article {
-    display: block; } }
+@media (max-width: 1000px) {
+  .menu article table {
+    margin-right: 30px;
+    width: 370px; }
+  .menu article td {
+    font-size: .75em; } }
+@media (max-width: 450px) {
+  .menu article table {
+    margin-left: 0; } }
 #catering {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(20, 0, 0, 0.2)), url(images/balls.jpeg);
   background-repeat: no-repeat;

@@ -18,6 +18,7 @@ main section {
         font-size: .7rem;
         margin-left: 25px;
         width: 250px;
+        line-height: 20px;
       }
     }
   }
@@ -29,7 +30,7 @@ main section {
     font-size: 2.8em;
   }
   table {
-    min-width: 355px;
+    width: 355px;
     margin-left: 5%;
     tr {
       font-size: 1.85em;
@@ -38,7 +39,7 @@ main section {
       text-decoration: underline;
     }
     td {
-      font-size: .55em;
+      font-size: .7em;
       padding-bottom: 7.5px;
       span {
         font-size: .7em;
@@ -81,8 +82,22 @@ main section {
   .menu article h2 {margin-right: 5%;}
 }
 
-@media (max-width: 300px) {
+@media (max-width: 1000px) {
   .menu article {
-    display: block;
+    table {
+      margin-right: 30px;
+      width: 370px;
+    }
+    td {
+      font-size: .75em;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .menu article {
+    table {
+      margin-left: 0;
+    }
   }
 }
