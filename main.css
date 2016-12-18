@@ -111,6 +111,10 @@ main section {
       margin-left: 25px;
       width: 250px;
       line-height: 20px; }
+  .menu article .po-boys {
+    margin-right: 4%;
+    padding-right: 2%;
+    width: 400px; }
 .menu h2 {
   margin-bottom: 17.5px;
   text-decoration: underline;
@@ -124,12 +128,16 @@ main section {
     font-size: 1.85em; }
   .menu table th {
     text-decoration: underline; }
+  .menu table .half {
+    padding-right: 20px; }
   .menu table td {
     font-size: .7em;
     padding-bottom: 7.5px; }
     .menu table td span {
       font-size: .7em;
       font-weight: 200; }
+.menu .po-boys table {
+  width: 380px; }
 .menu div .img {
   height: 175px;
   min-height: 175px;
@@ -162,7 +170,14 @@ main section {
     font-size: .75em; } }
 @media (max-width: 450px) {
   .menu article table {
-    margin-left: 0; } }
+    margin-left: 0;
+    margin-right: 0; }
+  .menu article .po-boys {
+    margin-right: 0;
+    padding-right: 0; }
+    .menu article .po-boys table {
+      width: 380px;
+      font-size: .9em; } }
 #catering {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(20, 0, 0, 0.2)), url(images/balls.jpeg);
   background-repeat: no-repeat;

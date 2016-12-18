@@ -21,6 +21,12 @@ main section {
         line-height: 20px;
       }
     }
+    .po-boys {
+      margin-right: 4%;
+      padding-right: 2%;
+      width: 400px;
+    }
+
   }
   h2 {
     margin-bottom: 17.5px;
@@ -38,6 +44,7 @@ main section {
     th {
       text-decoration: underline;
     }
+    .half {padding-right: 20px;}
     td {
       font-size: .7em;
       padding-bottom: 7.5px;
@@ -46,6 +53,10 @@ main section {
         font-weight: 200;
       }
     }
+  }
+
+  .po-boys table {
+    width: 380px;
   }
 
   div {
@@ -98,6 +109,15 @@ main section {
   .menu article {
     table {
       margin-left: 0;
+      margin-right: 0;
+    }
+    .po-boys {
+      margin-right: 0;
+      padding-right: 0;
+      table {
+        width: 380px;
+        font-size: .9em;
+      }
     }
   }
 }
