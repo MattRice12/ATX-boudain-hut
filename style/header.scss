@@ -1,4 +1,5 @@
 .title {
+  margin-left: 5%;
   h1 {
     margin-top: 1em;
     color: #fff;
@@ -14,13 +15,10 @@
   }
   p {
     text-align: left;
-    margin-top: 0;
-    margin-bottom: 0;
     color: #ccc;
     text-shadow: 1px 2.5px 1px #000;
     font-size: 1.3rem;
     word-spacing: -0.5px;
-    font-weight: 900;
   }
 }
 
@@ -40,9 +38,6 @@
   right: 0;
   top: 0;
   margin-right: 10%;
-  a:hover {
-    color: #E2AE28;
-  }
 }
 
 .nav-links, .nav-links div {
@@ -52,6 +47,12 @@
   margin: 0;
   a {
     text-shadow: 1px 3.5px 1px #000;
+    color: white;
+    transition: .2s;
+    &:hover {
+      color: #E2AE28;
+      transition: .1s;
+    }
   }
 }
 
@@ -61,7 +62,6 @@
   .nav-bar {
     position: absolute;
     left: 20px;
-    min-width: 100%;
   }
 
   .title {

@@ -1,13 +1,21 @@
 #about {
-  padding-bottom: 70px;
+  background: #EFEFEF;
+  h1 {
+  }
   h4 {
     font-size: 2em;
-    font-weight: 900;
     margin-bottom: 0;
   }
   p {
-    max-width: 60%;
+    max-width: 50%;
     min-width: 350px;
-    line-height: 35px;
+  }
+}
+
+@media (max-width: 900px) {
+  #about {
+    p {
+      max-width: 95%;
+    }
   }
 }

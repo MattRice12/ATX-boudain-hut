@@ -16,8 +16,10 @@ h1, h2 {
   font-family: 'Oswald';
 }
 
-p, li, a {
+p, li, a, strong {
   font-family: 'Open Sans';
+  font-weight: 900;
+  line-height: 35px;
 }
 
 ul li {
@@ -27,16 +29,16 @@ ul li {
 
 a {
   text-decoration: none;
-  color: white;
   font-size: 1.7rem;
-  font-weight: 900;
 }
 
 section {
-  margin-left: 5%;
+  padding-left: 5%;
   text-align: left;
   font-family: 'Open Sans';
+  padding: 50px 0;
   h1 {
+    margin-top: 0;
     margin-bottom: 0;
     font-size: 3.5em;
   }
@@ -50,6 +52,13 @@ section {
 }
 
 #map {
- height: 300px;
- width: 30%;
+  margin-top: 20px;
+  height: 300px;
+  width: 500px;
+}
+
+@media (max-width: 555px) {
+  #map {
+    width: 95%;
+  }
 }

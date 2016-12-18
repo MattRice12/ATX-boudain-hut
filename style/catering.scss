@@ -1,9 +1,56 @@
-#catering a {
-  color: #FF8C02;
-  text-shadow: 1px 1px 2px #1D1403;
-  transition: .2s;
-  &:hover {
-    color: #592684;
-    transition: 0s;
+#catering {
+  background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(20, 0, 0, 0.2)), url(images/balls.jpeg);
+  background-repeat: no-repeat;
+  background-position-y: 16%;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  div {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0;
+    background: white;
+    width: 400px;
+    min-width: 320px;
+    text-align: center;
+  }
+  h1 {
+    margin: 0;
+    border: 1px solid black;
+    border-bottom: none;
+  }
+  p {
+    padding: 15px;
+    border: 1px solid black;
+  }
+  a {
+    color: #FF8C02;
+    text-shadow: 1px 1px 2px #1D1403;
+    transition: .2s;
+    &:hover {
+      color: #592684;
+      transition: 0s;
+    }
+  }
+  img {
+    margin: 15% 5%;
+    width: 200px;
+  }
+}
+
+@media (max-width: 900px) {
+  #catering {
+    display: block;
+    div {
+      max-width: 80%;
+      margin: 0;
+    }
+    p {
+      line-height: 35px;
+      margin-right: 0;
+    }
+    .image-box, img {
+      display: none;
+    }
   }
 }
