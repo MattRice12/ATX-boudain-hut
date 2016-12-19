@@ -11,7 +11,7 @@
     margin: 0;
     background: white;
     width: 400px;
-    min-width: 320px;
+    min-width: 340px;
     text-align: center;
   }
   h1 {
@@ -22,6 +22,8 @@
   p {
     padding: 15px;
     border: 1px solid black;
+    z-index: 10;
+
   }
   a {
     color: #FF8C02;

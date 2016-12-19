@@ -32,7 +32,8 @@
   position: absolute;
   right: 0;
   top: 0;
-  margin-right: 10%; }
+  margin-right: 10%;
+  z-index: 10; }
 
 .nav-links, .nav-links div {
   display: flex;
@@ -191,7 +192,7 @@ main section {
     margin: 0;
     background: white;
     width: 400px;
-    min-width: 320px;
+    min-width: 340px;
     text-align: center; }
   #catering h1 {
     margin: 0;
@@ -199,7 +200,8 @@ main section {
     border-bottom: none; }
   #catering p {
     padding: 15px;
-    border: 1px solid black; }
+    border: 1px solid black;
+    z-index: 10; }
   #catering a {
     color: #FF8C02;
     text-shadow: 1px 1px 2px #1D1403;
