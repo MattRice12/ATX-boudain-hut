@@ -193,7 +193,8 @@ main section {
     background: white;
     width: 400px;
     min-width: 340px;
-    text-align: center; }
+    text-align: center;
+    max-height: 999999px; }
   #catering h1 {
     margin: 0;
     border: 1px solid black; }
