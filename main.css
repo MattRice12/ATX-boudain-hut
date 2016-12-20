@@ -196,12 +196,12 @@ main section {
     text-align: center; }
   #catering h1 {
     margin: 0;
-    border: 1px solid black;
-    border-bottom: none; }
+    border: 1px solid black; }
   #catering p {
     padding: 15px;
     border: 1px solid black;
-    z-index: 10; }
+    z-index: 10;
+    border-top: none; }
   #catering a {
     color: #FF8C02;
     text-shadow: 1px 1px 2px #1D1403;

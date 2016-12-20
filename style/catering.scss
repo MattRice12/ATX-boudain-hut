@@ -17,13 +17,12 @@
   h1 {
     margin: 0;
     border: 1px solid black;
-    border-bottom: none;
   }
   p {
     padding: 15px;
     border: 1px solid black;
     z-index: 10;
-
+    border-top: none;
   }
   a {
     color: #FF8C02;
