@@ -11,6 +11,7 @@ main section {
     display: flex;
     flex-wrap: wrap;
     max-height: 999999px;
+    padding-bottom: 50px;
     div {
       margin-right: 6%;
       flex-basis: 22%;
@@ -22,7 +23,7 @@ main section {
         line-height: 20px;
       }
     }
-    .po-boys-div {
+    .po-boys {
       margin-right: 4%;
       padding-right: 2%;
       width: 400px;
@@ -79,6 +80,38 @@ main section {
       filter: contrast(120%);
     }
   }
+  aside {
+    text-align: left;
+    margin: 0 5% 0 0;
+    border-top: 1px dotted black;
+    width: 100%;
+    overflow: hidden;
+    .list {
+      .services {
+        display: flex;
+        float: left;
+        flex-direction: column;
+        flex-basis: 4;
+      }
+    }
+    h2 {
+      text-align: left;
+    }
+    a {
+      float: left;
+      width: auto;
+      display: table;
+      margin: 5px 40px;
+      text-decoration: underline;
+      color: #FF8C02;
+      text-shadow: 1px 1px 2px #1D1403;
+      transition: .2s;
+      &:hover {
+        color: #592684;
+        transition: 0s;
+      }
+    }
+  }
 }
 
 @media (min-width: 1780px) {
@@ -111,7 +144,7 @@ main section {
       margin-left: 0;
       margin-right: 0;
     }
-    .po-boys-div {
+    .po-boys {
       margin-right: 0;
       padding-right: 0;
       table {

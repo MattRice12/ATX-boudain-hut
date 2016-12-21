@@ -103,7 +103,8 @@ main section {
 .menu article {
   display: flex;
   flex-wrap: wrap;
-  max-height: 999999px; }
+  max-height: 999999px;
+  padding-bottom: 50px; }
   .menu article div {
     margin-right: 6%;
     flex-basis: 22%;
@@ -113,11 +114,11 @@ main section {
       margin-left: 25px;
       width: 250px;
       line-height: 20px; }
-  .menu article .po-boys-div {
+  .menu article .po-boys {
     margin-right: 4%;
     padding-right: 2%;
     width: 400px; }
-    .menu article .po-boys-div table {
+    .menu article .po-boys table {
       width: 400px; }
 .menu h2 {
   margin-bottom: 17.5px;
@@ -154,6 +155,31 @@ main section {
 .menu div .filter {
   -webkit-filter: contrast(120%);
   filter: contrast(120%); }
+.menu aside {
+  text-align: left;
+  margin: 0 5% 0 0;
+  border-top: 1px dotted black;
+  width: 100%;
+  overflow: hidden; }
+  .menu aside .list .services {
+    display: flex;
+    float: left;
+    flex-direction: column;
+    flex-basis: 4; }
+  .menu aside h2 {
+    text-align: left; }
+  .menu aside a {
+    float: left;
+    width: auto;
+    display: table;
+    margin: 5px 40px;
+    text-decoration: underline;
+    color: #FF8C02;
+    text-shadow: 1px 1px 2px #1D1403;
+    transition: .2s; }
+    .menu aside a:hover {
+      color: #592684;
+      transition: 0s; }
 
 @media (min-width: 1780px) {
   .menu article h2 {
@@ -174,10 +200,10 @@ main section {
   .menu article table {
     margin-left: 0;
     margin-right: 0; }
-  .menu article .po-boys-div {
+  .menu article .po-boys {
     margin-right: 0;
     padding-right: 0; }
-    .menu article .po-boys-div table {
+    .menu article .po-boys table {
       width: 380px;
       font-size: .9em; } }
 #catering {
@@ -188,27 +214,35 @@ main section {
   background-attachment: fixed;
   display: flex; }
   #catering div {
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0;
     background: white;
-    width: 400px;
+    width: 420px;
     min-width: 340px;
     text-align: center;
-    max-height: 999999px; }
-  #catering h1 {
+    max-height: 999999px;
     margin: 0;
-    border: 1px solid black; }
+    margin-right: 40px; }
+    #catering div .border-box {
+      margin: 10px;
+      border: 1px solid black;
+      width: 95%;
+      min-height: 498px;
+      box-sizing: content-box; }
+  #catering h1 {
+    margin: 0; }
   #catering p {
     padding: 15px;
-    border: 1px solid black;
     font-size: 1.5em;
     z-index: 10;
-    border-top: none; }
+    border-top: 1px solid black;
+    box-sizing: border-box; }
     #catering p strong {
       text-decoration: underline; }
+  #catering .ordering {
+    display: flex;
+    flex-direction: column; }
   #catering a {
     color: #FF8C02;
+    margin: 6px;
     text-shadow: 1px 1px 2px #1D1403;
     transition: .2s; }
     #catering a:hover {
@@ -223,7 +257,7 @@ main section {
     display: block; }
     #catering div {
       max-width: 80%;
-      margin: 0; }
+      margin: 20px 0 0 0; }
     #catering p {
       line-height: 35px;
       margin-right: 0; }
@@ -242,7 +276,13 @@ main section {
     margin-bottom: 42.5px; }
   #location a {
     font-size: 1em;
-    text-decoration: underline; }
+    text-decoration: underline;
+    text-shadow: 0.5px 0.5px 1px #1D1403;
+    color: #FF8C02;
+    transition: .2s; }
+    #location a:hover {
+      color: #592684;
+      transition: 0s; }
 
 #about {
   background: #EFEFEF; }

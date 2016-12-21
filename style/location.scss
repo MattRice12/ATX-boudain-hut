@@ -15,5 +15,12 @@
   a {
     font-size: 1em;
     text-decoration: underline;
+    text-shadow: 0.5px 0.5px 1px #1D1403;
+    color: #FF8C02;
+    transition: .2s;
+    &:hover {
+      color: #592684;
+      transition: 0s;
+    }
   }
 }

@@ -6,33 +6,44 @@
   background-attachment: fixed;
   display: flex;
   div {
-    padding: 10px;
-    border: 1px solid black;
-    margin: 0;
     background: white;
-    width: 400px;
+    width: 420px;
     min-width: 340px;
     text-align: center;
     max-height: 999999px;
+    margin: 0;
+    margin-right: 40px;
+    .border-box {
+      margin: 10px;
+      border: 1px solid black;
+      width: 95%;
+      min-height: 498px;
+      box-sizing: content-box;
+    }
   }
+
   h1 {
     margin: 0;
-    border: 1px solid black;
   }
   p {
     padding: 15px;
-    border: 1px solid black;
     font-size: 1.5em;
     z-index: 10;
-    border-top: none;
+    border-top: 1px solid black;
+    box-sizing: border-box;
     span {
     }
     strong {
       text-decoration: underline;
     }
   }
+  .ordering {
+    display: flex;
+    flex-direction: column;
+  }
   a {
     color: #FF8C02;
+    margin: 6px;
     text-shadow: 1px 1px 2px #1D1403;
     transition: .2s;
     &:hover {
@@ -51,7 +62,7 @@
     display: block;
     div {
       max-width: 80%;
-      margin: 0;
+      margin: 20px 0 0 0;
     }
     p {
       line-height: 35px;
