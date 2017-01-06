@@ -200,15 +200,17 @@ main section {
   .menu article td {
     font-size: .75em; } }
 @media (max-width: 450px) {
-  .menu article table {
-    margin-left: 0;
+  .menu article {
     margin-right: 0; }
-  .menu article .po-boys {
-    margin-right: 0;
-    padding-right: 0; }
-    .menu article .po-boys table {
-      width: 380px;
-      font-size: .9em; } }
+    .menu article table {
+      margin-left: 0;
+      margin-right: 0; }
+    .menu article .po-boys {
+      margin-right: 0;
+      padding-right: 0; }
+      .menu article .po-boys table {
+        width: 380px;
+        font-size: .9em; } }
 #catering {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(20, 0, 0, 0.2)), url(images/balls.jpeg);
   background-repeat: no-repeat;
@@ -270,6 +272,9 @@ main section {
       margin-right: 0; }
     #catering .image-box, #catering img {
       display: none; } }
+@media (max-width: 500px) {
+  #catering div {
+    width: 93%; } }
 #location {
   background: white; }
   #location strong {
