@@ -6,6 +6,10 @@
 @import 'contact';
 @import 'footer';
 
+@-ms-viewport{
+  width: 480px;
+}
+
 body {
   font-family: 'Open Sans', serif;
   color: #083451;

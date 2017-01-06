@@ -88,6 +88,9 @@
 @media (max-width: 500px) {
   .nav-bar {
     margin-left: -7%; }
+    .nav-bar ul {
+      width: 100%;
+      margin-left: 5%; }
     .nav-bar li {
       min-width: 20%; }
 
@@ -348,6 +351,8 @@ main section {
       color: inherit;
       font-size: inherit; }
 
+@-ms-viewport {
+  width: 480px; }
 body {
   font-family: 'Open Sans', serif;
   color: #083451;
