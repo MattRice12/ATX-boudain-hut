@@ -130,7 +130,7 @@ main section {
   .menu article {
     table {
       margin-right: 30px;
-      width: 370px;
+      width: 350px;
     }
     td {
       font-size: .75em;
@@ -154,4 +154,8 @@ main section {
     }
     margin-right: 0;
   }
+}
+
+@media (max-width: 500px) {
+  .menu article h2 {margin-right: 5%;}
 }
