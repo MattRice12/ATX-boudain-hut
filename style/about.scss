@@ -1,7 +1,5 @@
 #about {
   background: #EFEFEF;
-  h1 {
-  }
   h4 {
     font-size: 2em;
     margin-bottom: 0;
@@ -14,9 +12,5 @@
 }
 
 @media (max-width: 1300px) {
-  #about {
-    p {
-      max-width: 95%;
-    }
-  }
+  #about p {max-width: 95%;}
 }

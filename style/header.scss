@@ -73,9 +73,7 @@
 }
 
 @media (max-width: 900px) {
-  .nav-bar a {
-    font-size: 1.25em;
-  }
+  .nav-bar a {font-size: 1.25em;}
 }
 
 
@@ -85,9 +83,7 @@
     li {
       min-width: 25%;
       text-align: left;
-      a {
-        font-size: 1.3em;
-      }
+      a {font-size: 1.3em;}
     }
     .nav-links {
       float: left;
@@ -108,9 +104,7 @@
       margin-bottom: 17.5px;
       font-size: 2em;
     }
-    p {
-      text-align: center;
-    }
+    p {text-align: center;}
   }
 }
 
@@ -121,9 +115,7 @@
       width: 100%;
       margin-left: 5%;
     }
-    li {
-      min-width: 20%;
-    }
+    li {min-width: 20%;}
   }
   .title {
     margin-left: -50px;

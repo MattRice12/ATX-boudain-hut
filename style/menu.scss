@@ -16,22 +16,31 @@ main section {
       margin-right: 6%;
       flex-basis: 22%;
       flex-basis: auto;
-      p {
+      ul {
+        margin: 0;
         font-size: .7rem;
-        margin-left: 25px;
-        width: 250px;
-        line-height: 20px;
+        width: 300px;
+        padding-left: 30px;
+        li {
+          line-height: 20px;
+          padding-left: 0px;
+          margin-right: 0px;
+          padding-right: 0px;
+        }
       }
     }
     .po-boys {
       margin-right: 4%;
       padding-right: 2%;
-      width: 400px;
+      table {width: 395px;}
+    }
+    .soups {
       table {
-        width: 400px;
+        width: 395px;
+        tr {font-size: 1.80em;}
+        td {padding-bottom: 7.5px;}
       }
     }
-
   }
   h2 {
     margin-bottom: 17.5px;
@@ -43,16 +52,12 @@ main section {
   table {
     width: 355px;
     margin-left: 5%;
-    tr {
-      font-size: 1.85em;
-    }
-    th {
-      text-decoration: underline;
-    }
+    tr {font-size: 1.85em;}
+    th {text-decoration: underline;}
     .half {padding-right: 20px;}
     td {
       font-size: .7em;
-      padding-bottom: 7.5px;
+      padding-bottom: 5px;
       span {
         font-size: .7em;
         font-weight: 200;
@@ -69,12 +74,8 @@ main section {
       position: static;
       box-shadow: 5px 3px 10px lightgray;
     }
-    .img-wide {
-      margin-left: 18%;
-    }
-    .img-slim {
-      margin-left: 33%;
-    }
+    .img-wide {margin-left: 18%;}
+    .img-slim {margin-left: 33%;}
     .filter {
       -webkit-filter: contrast(120%);
       filter: contrast(120%);
@@ -94,9 +95,7 @@ main section {
         flex-basis: 4;
       }
     }
-    h2 {
-      text-align: left;
-    }
+    h2 {text-align: left;}
     a {
       float: left;
       width: auto;
@@ -132,14 +131,13 @@ main section {
       margin-right: 30px;
       width: 350px;
     }
-    td {
-      font-size: .75em;
-    }
+    td {font-size: .75em;}
   }
 }
 
 @media (max-width: 450px) {
   .menu article {
+    margin-right: 0;
     table {
       margin-left: 0;
       margin-right: 0;
@@ -152,7 +150,6 @@ main section {
         font-size: .9em;
       }
     }
-    margin-right: 0;
   }
 }
 

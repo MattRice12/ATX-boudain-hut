@@ -6,9 +6,7 @@
 @import 'contact';
 @import 'footer';
 
-@-ms-viewport{
-  width: 480px;
-}
+@-ms-viewport{width: 480px;}
 
 body {
   font-family: 'Open Sans', serif;
@@ -16,9 +14,7 @@ body {
   margin: 0;
 }
 
-h1, h2 {
-  font-family: 'Oswald';
-}
+h1, h2 {font-family: 'Oswald';}
 
 p, li, a, strong {
   font-family: 'Open Sans';
@@ -62,7 +58,5 @@ section {
 }
 
 @media (max-width: 555px) {
-  #map {
-    width: 95%;
-  }
+  #map {width: 95%;}
 }
