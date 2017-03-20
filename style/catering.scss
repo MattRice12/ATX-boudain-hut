@@ -7,16 +7,16 @@
   display: flex;
   div {
     background: white;
-    width: 420px;
-    min-width: 340px;
+    width: 422px;
     text-align: center;
     max-height: 999999px;
-    margin: 0;
+    margin: 20px;
     margin-right: 40px;
+    border: 1px solid black;
     .border-box {
       margin: 10px;
       border: 1px solid black;
-      width: 95%;
+      width: 400px;
       min-height: 498px;
       box-sizing: content-box;
     }
@@ -51,16 +51,20 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   #catering {
-    display: block;
+    padding: 0 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
     div {
-      margin: 20px 0 0 0;
-      padding: 5px;
+      margin: 20px;
+      width: 372px;
+      padding-right: 10px;
       .border-box {
         padding: 0;
-        margin: 5px;
-        width: 97%;
+        width: 360px;
+        margin: 10px;
       }
     }
     p {
@@ -69,9 +73,4 @@
     }
     .image-box, img {display: none;}
   }
-}
-
-
-@media (max-width: 500px) {
-  #catering div {width: 93%;}
 }

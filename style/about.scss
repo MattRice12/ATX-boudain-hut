@@ -8,6 +8,7 @@
   p {
     max-width: 1200px;
     min-width: 350px;
+    &:last-child {padding-bottom: 40px;}
   }
 }
 
