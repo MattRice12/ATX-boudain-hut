@@ -98,7 +98,7 @@
     margin-left: -50px;
     padding: 50px 20px; } }
 main section {
-  padding-left: 5%; }
+  padding: 0 5%; }
   main section h1 {
     color: #083451;
     text-shadow: none; }
@@ -106,33 +106,19 @@ main section {
 .menu article {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   max-height: 999999px;
   padding-bottom: 50px; }
-  .menu article div {
-    margin-right: 6%;
-    flex-basis: 22%;
-    flex-basis: auto; }
-    .menu article div ul {
-      margin: 0;
-      font-size: .7rem;
-      width: 300px;
-      padding-left: 30px; }
-      .menu article div ul li {
-        line-height: 20px;
-        padding-left: 0px;
-        margin-right: 0px;
-        padding-right: 0px; }
-  .menu article .po-boys {
-    margin-right: 4%;
-    padding-right: 2%; }
-    .menu article .po-boys table {
-      width: 395px; }
-  .menu article .soups table {
-    width: 395px; }
-    .menu article .soups table tr {
-      font-size: 1.80em; }
-    .menu article .soups table td {
-      padding-bottom: 7.5px; }
+  .menu article div ul {
+    margin: 0;
+    font-size: .7rem;
+    width: 300px;
+    padding-left: 30px; }
+    .menu article div ul li {
+      line-height: 20px;
+      padding-left: 0px;
+      margin-right: 0px;
+      padding-right: 0px; }
 .menu h2 {
   margin-bottom: 17.5px;
   text-decoration: underline;
@@ -140,12 +126,13 @@ main section {
   text-align: center;
   font-size: 2.8em; }
 .menu table {
-  width: 355px;
-  margin-left: 5%; }
+  width: 370px; }
   .menu table tr {
     font-size: 1.85em; }
   .menu table th {
     text-decoration: underline; }
+    .menu table th:first-child {
+      width: 85%; }
   .menu table .half {
     padding-right: 20px; }
   .menu table td {
@@ -194,36 +181,13 @@ main section {
       color: #592684;
       transition: 0s; }
 
-@media (min-width: 1780px) {
-  .menu article h2 {
-    margin-right: 1%; } }
-@media (min-width: 1820px) {
-  .menu article h2 {
-    margin-right: 3%; } }
-@media (min-width: 1850px) {
-  .menu article h2 {
-    margin-right: 5%; } }
-@media (max-width: 1000px) {
-  .menu article table {
-    margin-right: 30px;
-    width: 350px; }
-  .menu article td {
-    font-size: .75em; } }
-@media (max-width: 450px) {
+@media (max-width: 820px) {
   .menu article {
-    margin-right: 0; }
-    .menu article table {
-      margin-left: 0;
-      margin-right: 0; }
-    .menu article .po-boys {
-      margin-right: 0;
-      padding-right: 0; }
-      .menu article .po-boys table {
-        width: 380px;
-        font-size: .9em; } }
-@media (max-width: 500px) {
-  .menu article h2 {
-    margin-right: 5%; } }
+    justify-content: center; } }
+@media (max-width: 450px) {
+  .menu article table {
+    width: 370px;
+    font-size: .85em; } }
 #catering {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(20, 0, 0, 0.2)), url(images/balls.jpeg);
   background-repeat: no-repeat;

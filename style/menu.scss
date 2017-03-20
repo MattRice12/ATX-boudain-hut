@@ -1,5 +1,5 @@
 main section {
-  padding-left: 5%;
+  padding: 0 5%;
   h1 {
     color: #083451;
     text-shadow: none;
@@ -10,12 +10,10 @@ main section {
   article {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     max-height: 999999px;
     padding-bottom: 50px;
     div {
-      margin-right: 6%;
-      flex-basis: 22%;
-      flex-basis: auto;
       ul {
         margin: 0;
         font-size: .7rem;
@@ -29,18 +27,6 @@ main section {
         }
       }
     }
-    .po-boys {
-      margin-right: 4%;
-      padding-right: 2%;
-      table {width: 395px;}
-    }
-    .soups {
-      table {
-        width: 395px;
-        tr {font-size: 1.80em;}
-        td {padding-bottom: 7.5px;}
-      }
-    }
   }
   h2 {
     margin-bottom: 17.5px;
@@ -50,10 +36,14 @@ main section {
     font-size: 2.8em;
   }
   table {
-    width: 355px;
-    margin-left: 5%;
+    width: 370px;
     tr {font-size: 1.85em;}
-    th {text-decoration: underline;}
+    th {
+      text-decoration: underline;
+      &:first-child {
+        width: 85%;
+      }
+    }
     .half {padding-right: 20px;}
     td {
       font-size: .7em;
@@ -114,45 +104,28 @@ main section {
 }
 
 @media (min-width: 1780px) {
-  .menu article h2 {margin-right: 1%;}
 }
 
 @media (min-width: 1820px) {
-  .menu article h2 {margin-right: 3%;}
 }
 
 @media (min-width: 1850px) {
-  .menu article h2 {margin-right: 5%;}
 }
 
 @media (max-width: 1000px) {
+}
+
+@media (max-width: 820px) {
   .menu article {
-    table {
-      margin-right: 30px;
-      width: 350px;
-    }
-    td {font-size: .75em;}
+    justify-content: center;
   }
 }
 
 @media (max-width: 450px) {
   .menu article {
-    margin-right: 0;
     table {
-      margin-left: 0;
-      margin-right: 0;
-    }
-    .po-boys {
-      margin-right: 0;
-      padding-right: 0;
-      table {
-        width: 380px;
-        font-size: .9em;
-      }
+      width: 370px;
+      font-size: .85em;
     }
   }
-}
-
-@media (max-width: 500px) {
-  .menu article h2 {margin-right: 5%;}
 }
