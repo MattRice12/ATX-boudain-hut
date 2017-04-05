@@ -19,6 +19,13 @@
       width: 400px;
       min-height: 498px;
       box-sizing: content-box;
+      &.to-go {
+        min-height: 260px;
+      }
+    }
+    &.to-go-container {
+      height: 280px;
+      // align-self: center;
     }
   }
 
@@ -40,6 +47,7 @@
     margin: 6px;
     text-shadow: 1px 1px 2px #1D1403;
     transition: .2s;
+    &:first-child {margin-top: .7em;}
     &:hover {
       color: #592684;
       transition: 0s;

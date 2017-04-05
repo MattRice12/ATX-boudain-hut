@@ -209,6 +209,10 @@ main section {
       width: 400px;
       min-height: 498px;
       box-sizing: content-box; }
+      #catering div .border-box.to-go {
+        min-height: 260px; }
+    #catering div.to-go-container {
+      height: 280px; }
   #catering h1 {
     margin: 0; }
   #catering p {
@@ -227,6 +231,8 @@ main section {
     margin: 6px;
     text-shadow: 1px 1px 2px #1D1403;
     transition: .2s; }
+    #catering a:first-child {
+      margin-top: .7em; }
     #catering a:hover {
       color: #592684;
       transition: 0s; }
